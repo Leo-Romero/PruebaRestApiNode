@@ -21,6 +21,11 @@ const getAllUsers = (req, res) => {
         }
     ]
     
+    // Ejemplo de error sencillo lo ideal seria instanciar una nueva clase de error
+    /* let error = new Error('Ha ocurrido un error inesperado...')
+    error.code = 504
+    throw error */
+
     res.json(users)
 }
 
