@@ -14,4 +14,6 @@ v 0.0.2
 - Configuración de un logger con winston
 - Documentación de API con swagger
 
+v 0.0.3
+- modificación menor, agrego logger en error handler
 
